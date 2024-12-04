@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mobile Number Validation</title>
+  <link rel="stylesheet" href="demo.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Mobile Number Validation</h1>
+    <form id="mobileForm">
+      <label for="mobileNumber">Enter Mobile Number:</label>
+      <input type="text" oninput="handleinput()" id="mobileNumber" name="mobileNumber" placeholder="9876543210" required>
+      <button type="submit">Validate</button>
+    </form>
+    <p id="message1"></p>
+    <p id="message2"></p>
+    <p id="message3"></p>
+  </div>
+  <script src="demo.js"></script>
+</body>
+</html>
